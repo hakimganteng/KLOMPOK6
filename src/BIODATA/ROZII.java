@@ -10,12 +10,12 @@ import FORMAT.*;
  *
  * @author ahmad luqman hakim
  */
-public class rozi extends javax.swing.JFrame {
+public class ROZII extends javax.swing.JFrame {
 
     /**
      * Creates new form FORMATBIODATA
      */
-    public rozi() {
+    public ROZII() {
         initComponents();
     }
 
@@ -45,7 +45,7 @@ public class rozi extends javax.swing.JFrame {
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/FOTO/foto1.jpg"))); // NOI18N
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 90, 110, 120));
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 80, 120, 120));
 
         jLabel7.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel7.setForeground(new java.awt.Color(255, 255, 255));
@@ -70,10 +70,10 @@ public class rozi extends javax.swing.JFrame {
         jTextField1.setText("https://github.com/bakolsound");
         getContentPane().add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 490, 210, -1));
 
-        jTextField2.setText("MOCH FACHRUL ROZI");
+        jTextField2.setText("MOCH FACHRU ROZI");
         getContentPane().add(jTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 330, 200, -1));
 
-        jTextField3.setText("KALIANYAR  NGRONGGOT");
+        jTextField3.setText("KALIANYAR NRONGGOT");
         getContentPane().add(jTextField3, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 360, 200, -1));
 
         jTextField4.setText("202357201008");
@@ -103,13 +103,13 @@ public class rozi extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(rozi.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(ROZII.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(rozi.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(ROZII.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(rozi.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(ROZII.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(rozi.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(ROZII.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
         //</editor-fold>
@@ -117,7 +117,7 @@ public class rozi extends javax.swing.JFrame {
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new rozi().setVisible(true);
+                new ROZII().setVisible(true);
             }
         });
     }
