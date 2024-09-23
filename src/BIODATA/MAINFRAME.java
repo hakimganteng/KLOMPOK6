@@ -91,6 +91,11 @@ public class MAINFRAME extends javax.swing.JFrame {
         jButton6.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jButton6.setForeground(new java.awt.Color(255, 255, 255));
         jButton6.setText("MOCH FACHRUL ROZI");
+        jButton6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton6ActionPerformed(evt);
+            }
+        });
         getContentPane().add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 410, 250, -1));
 
         jButton7.setBackground(new java.awt.Color(153, 153, 153));
@@ -121,7 +126,7 @@ public class MAINFRAME extends javax.swing.JFrame {
         getContentPane().add(jButton9, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 670, -1, -1));
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/FOTO/Dark minimalistic abstract precambrian.jpeg"))); // NOI18N
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, 740));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -141,6 +146,12 @@ public class MAINFRAME extends javax.swing.JFrame {
         new ILHAM().setVisible(true);
         dispose();
     }//GEN-LAST:event_jButton7ActionPerformed
+
+    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
+        // TODO add your handling code here:
+        new ROZII().setVisible(true);
+        dispose();
+    }//GEN-LAST:event_jButton6ActionPerformed
 
     /**
      * @param args the command line arguments
