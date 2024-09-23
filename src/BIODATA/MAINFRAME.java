@@ -73,6 +73,11 @@ public class MAINFRAME extends javax.swing.JFrame {
         jButton3.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jButton3.setForeground(new java.awt.Color(255, 255, 255));
         jButton3.setText("ICHSAN MAULIDANIL I");
+        jButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3ActionPerformed(evt);
+            }
+        });
         getContentPane().add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 330, 250, -1));
 
         jButton4.setBackground(new java.awt.Color(153, 153, 153));
@@ -152,6 +157,12 @@ public class MAINFRAME extends javax.swing.JFrame {
         new ROZII().setVisible(true);
         dispose();
     }//GEN-LAST:event_jButton6ActionPerformed
+
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+        // TODO add your handling code here:
+        new ICHSAN().setVisible(true);
+        dispose();
+    }//GEN-LAST:event_jButton3ActionPerformed
 
     /**
      * @param args the command line arguments
